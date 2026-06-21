@@ -1,0 +1,27 @@
+[project]
+name = "clipdb"
+version = "0.1.0"
+
+description = """clipdb (CLI pdb) is a wrapper for the ipdb module which handles Control-C nicely such aiming at
+avoiding the output of useless text upon handling KeyboardInterrupt."""
+
+readme = "README.md"
+authors = [
+    { name = "Gabriel DeMoura", email = "gabrielteratos@gmail.com" }
+]
+requires-python = ">=3.10"
+dependencies = [
+    "ipdb>=0.13.13",
+]
+
+[project.scripts]
+clipdb = "clipdb:main"
+
+[build-system]
+requires = ["uv_build>=0.11.15,<0.12.0"]
+build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "pytest>=9.1.0",
+]
