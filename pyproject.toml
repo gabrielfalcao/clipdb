@@ -2,8 +2,7 @@
 name = "clipdb"
 version = "0.1.0"
 
-description = """clipdb (CLI pdb) is a wrapper for the ipdb module which handles Control-C nicely such aiming at
-avoiding the output of useless text upon handling KeyboardInterrupt."""
+description = "clipdb (CLI pdb) is a wrapper for the ipdb module which handles Control-C nicely such aiming at avoiding the output of useless text upon handling KeyboardInterrupt."
 
 readme = "README.md"
 authors = [
