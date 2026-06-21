@@ -1,6 +1,6 @@
 [project]
 name = "clipdb"
-version = "0.2.0"
+version = "0.3.0"
 
 description = "clipdb (CLI pdb) is a wrapper for the ipdb module which handles Control-C nicely such aiming at avoiding the output of useless text upon handling KeyboardInterrupt."
 
