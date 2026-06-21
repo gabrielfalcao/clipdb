@@ -9,6 +9,8 @@ readme = "README.md"
 authors = [
     { name = "Gabriel DeMoura", email = "gabrielteratos@gmail.com" }
 ]
+license = "MIT OR CC-SA-1.0"
+
 requires-python = ">=3.10"
 dependencies = [
     "ipdb>=0.13.13",
