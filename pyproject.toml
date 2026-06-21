@@ -1,10 +1,10 @@
 [project]
 name = "clipdb"
-version = "0.1.0"
+version = "0.1.1"
 
 description = "clipdb (CLI pdb) is a wrapper for the ipdb module which handles Control-C nicely such aiming at avoiding the output of useless text upon handling KeyboardInterrupt."
 
-readme = "README.md"
+readme = "README.rst"
 authors = [
     { name = "Gabriel DeMoura", email = "gabrielteratos@gmail.com" }
 ]
